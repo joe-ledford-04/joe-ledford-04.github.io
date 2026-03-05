@@ -1,11 +1,11 @@
 # Joe Ledford
 
-![Profile Picture](assets/Headshot.jpg)
+![Profile Picture](/assets/Headshot.jpg)
 
 Data Science Senior at American University
 ---
 
-[View All My Project](Projects)
+[View All My Projects](Projects)
 
 ---
 
