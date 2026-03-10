@@ -15,13 +15,8 @@ author:
   bio: "Data Science Senior at American University"
   location: "Washington, D.C."
   avatar: "/assets/images/Headshot.jpg"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/joe-ledford-04"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/jjoseph-ledford04/"
+  github: "joe-ledford-04"
+  linkedin: "joseph-ledford04"
 
 # Plugins
 plugins:
