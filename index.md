@@ -24,7 +24,7 @@ I'm a senior at American University studying Data Science. Currently interning a
 ![tidyverse](https://img.shields.io/badge/tidyverse-1a162d?style=for-the-badge&logo=r&logoColor=white)
 ![Shiny](https://img.shields.io/badge/Shiny-276DC3?style=for-the-badge&logo=r&logoColor=white)
 
-**Misc** 
+**Misc:** 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
 
