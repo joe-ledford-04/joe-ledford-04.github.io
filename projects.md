@@ -4,23 +4,22 @@ title: "Projects"
 permalink: /projects/
 classes: wide
 ---
+## Featured Projects
 
-<div class="feature__wrapper">
+<div class="grid__wrapper">
 
-<div class="feature__item">
+<div class="grid__item">
 
-### California Housing Price Prediction
-
+#### California Housing Price Prediction
 Machine learning model predicting housing prices in Ames, Iowa.
 
-[View Project](/projects/kaggle_housing.md)
+[View Project](/projects/kaggle_housing/)
 
 </div>
 
-<div class="feature__item">
+<div class="grid__item">
 
-### Cherry Blossom Bloom Prediction
-
+#### Cherry Blossom Bloom Prediction
 Forecasting peak bloom dates using temperature accumulation models.
 
 [View Project](/projects/cherry-blossom.md)
