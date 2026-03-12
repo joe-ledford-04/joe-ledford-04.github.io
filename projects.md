@@ -4,21 +4,32 @@ title: "Projects"
 permalink: /projects/
 ---
 
-## Kaggle Housing Price Competition
-Predicted housing prices using an ensemble of gradient boosted models.  
-Top 10% finish with RMSE of 0.12106.
+## Featured Projects
 
-[View Project](https://github.com/joe-ledford-04/Kaggle-Housing-Price-Competition)
+<div class="grid__wrapper">
+
+<div class="grid__item">
+### California Housing Price Prediction
+Machine learning model predicting housing prices using ensemble methods.
+
+[View Project](/projects/housing)
+</div>
+
+<div class="grid__item">
+### Cherry Blossom Bloom Prediction
+Forecasting peak bloom dates using temperature accumulation models.
+
+[View Project](/projects/cherry-blossom)
+</div>
+
+</div>
 
 ---
 
-## Cherry Blossom Prediction Competition
-Predicted peak bloom dates using chill accumulation and growing degree days.
-
-[View Project](https://github.com/joe-ledford-04/WSA-Petals-and-Probabilities-2026-Team-Data-United-)
-
-
 ## Projects In Progress
-- IDX Exchange, California Housing Price Model
-- Spotify's Baking Obsession: An Evaluation of Spotify’s Recommendation System
-- Zack Charbonnet 2025 Regular Season Analysis
+
+### IDX Exchange – California Housing Model
+
+### Spotify’s Baking Obsession: Evaluating Spotify’s Recommendation System
+
+### Zack Charbonnet 2025 Regular Season Analysis
