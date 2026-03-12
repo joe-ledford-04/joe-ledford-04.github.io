@@ -12,9 +12,9 @@ minimal_mistakes_skin: "sunrise" # options: air, aqua, contrast, dark, dirt, neo
 # Site Author
 author:
   name: Joe Ledford
-  bio: "Data Science Senior at American University"
-  location: "Washington, D.C."
   avatar: "/assets/images/Headshot.jpg"
+  bio: "Data Science Senior at American University"
+  location: "Washington, DC"
 
   links:
     - label: "GitHub"
