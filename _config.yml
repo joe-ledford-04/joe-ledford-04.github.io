@@ -34,6 +34,11 @@ plugins:
   - jekyll-gist
   - jekyll-include-cache
 
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
+
 # Defaults
 defaults:
   - scope:
@@ -41,4 +46,11 @@ defaults:
     values:
       layout: single
       author_profile: true
+  - scope:
+      path: ""
+      type: portfolio
+    values:
+      layout: single
+
+
 
