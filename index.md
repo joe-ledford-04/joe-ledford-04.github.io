@@ -2,7 +2,6 @@
 layout: single
 title: "About Me"
 author_profile: true
-classses: wide
 ---
 I'm a senior at American University studying Data Science and currently interning at IDX Exchange, where I model housing prices in California. 
 My interest include sports analytics, forecasting, natural language processing in Music, and so much more I haven't modeled yet.  I choose data science because it is a medium that allows me to explore all my interests. 
