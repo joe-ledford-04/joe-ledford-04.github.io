@@ -5,8 +5,6 @@ permalink: /projects/
 classes: wide
 ---
 
-## Featured Projects
-
 <div class="feature__wrapper">
 
 <div class="feature__item">
@@ -31,7 +29,6 @@ Forecasting peak bloom dates using temperature accumulation models.
 
 </div>
 
----
 
 ## Projects In Progress
 
