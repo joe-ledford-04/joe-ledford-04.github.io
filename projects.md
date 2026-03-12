@@ -16,3 +16,9 @@ Top 10% finish with RMSE of 0.12106.
 Predicted peak bloom dates using chill accumulation and growing degree days.
 
 [View Project](https://github.com/joe-ledford-04/WSA-Petals-and-Probabilities-2026-Team-Data-United-)
+
+
+## Projects In Progress
+- IDX Exchange, California Housing Price Model
+- Spotify's Baking Obsession: An Evaluation of Spotify’s Recommendation System
+- Zack Charbonnet 2025 Regular Season Analysis
