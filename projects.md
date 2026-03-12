@@ -11,9 +11,9 @@ classes: wide
 
 ### California Housing Price Prediction
 
-Machine learning model predicting housing prices using ensemble methods.
+Machine learning model predicting housing prices in Ames, Iowa.
 
-[View Project](/projects/housing)
+[View Project](/projects/kaggle_housing.md)
 
 </div>
 
@@ -23,13 +23,13 @@ Machine learning model predicting housing prices using ensemble methods.
 
 Forecasting peak bloom dates using temperature accumulation models.
 
-[View Project](/projects/cherry-blossom)
+[View Project](/projects/cherry-blossom.md)
 
 </div>
 
 </div>
 
-
+--- 
 ## Projects In Progress
 
 ### IDX Exchange – California Housing Model
