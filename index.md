@@ -21,8 +21,11 @@ I'm a senior at American University studying Data Science. Currently interning a
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logoColor=white)
 ![NLTK](https://img.shields.io/badge/NLTK-154f3c?style=for-the-badge&logoColor=white)
+
+**R ecosystem**
 ![tidyverse](https://img.shields.io/badge/tidyverse-1a162d?style=for-the-badge&logo=r&logoColor=white)
 ![Shiny](https://img.shields.io/badge/Shiny-276DC3?style=for-the-badge&logo=r&logoColor=white)
+![rvest](https://img.shields.io/badge/rvest-276DC3?style=for-the-badge&logo=r&logoColor=white)
 
 **Misc:** 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
