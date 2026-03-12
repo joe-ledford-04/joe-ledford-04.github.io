@@ -15,12 +15,12 @@ author:
   avatar: "/assets/images/Headshot.jpg"
   bio: "Data Science Senior at American University"
   location: "Washington, DC"
-
+  github: "joe-ledford-04"
+  linkedin: "joseph-ledford04"
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/joe-ledford-04"
-
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/joseph-ledford04"
