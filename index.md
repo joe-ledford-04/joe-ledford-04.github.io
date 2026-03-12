@@ -12,7 +12,7 @@ I'm a senior at American University studying Data Science. Currently interning a
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![Stata](https://img.shields.io/badge/Stata-1a1a1a?style=for-the-badge&logoColor=white)
-![Excel](https://img.shields.io/badge/Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![Excel](<img src="https://img.shields.io/badge/-Microsoft Excel-217346?style=flat&logo=microsoftexcel&logoColor=white"/>)
 
 **Libraries:** 
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
