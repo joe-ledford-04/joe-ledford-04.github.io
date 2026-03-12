@@ -1,10 +1,9 @@
 ---
 layout: single
 author_profile: true
-title: ""
-classes: wide
-header:
-  overlay_filter: 0
+title: "Home"
+sidebar: 
+  nav: "main
 ---
 
 ## About Me 
