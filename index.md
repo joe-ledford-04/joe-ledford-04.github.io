@@ -1,7 +1,6 @@
 ---
 layout: single
 author_profile: true
-title: ""
 sidebar: 
   nav: "main"
 ---
