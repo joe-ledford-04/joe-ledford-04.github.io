@@ -4,7 +4,6 @@ title: "Projects"
 permalink: /projects/
 classes: wide
 ---
-## Featured Projects
 
 <div class="grid__wrapper">
 
@@ -29,7 +28,7 @@ Forecasting peak bloom dates using temperature accumulation models.
 </div>
 
 --- 
-## Projects In Progress
+## In Progress
 
 ### IDX Exchange – California Housing Model
 Housing price modeling using California property datasets during my internship.
