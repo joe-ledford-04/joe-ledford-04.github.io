@@ -17,14 +17,14 @@ author:
   avatar: "/assets/images/Headshot.jpg"
 
   links:
-    - label: "Github
+    - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/joe-ledford-04"
-  
+
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/in/joseph-ledford04"
-
+      
 # Plugins
 plugins:
   - jekyll-remote-theme
