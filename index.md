@@ -3,7 +3,7 @@ layout: single
 author_profile: true
 title: "Home"
 sidebar: 
-  nav: "main
+  nav: "main"
 ---
 
 ## About Me 
