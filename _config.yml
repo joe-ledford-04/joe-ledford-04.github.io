@@ -7,7 +7,7 @@ baseurl: ""
 
 remote_theme: mmistakes/minimal-mistakes
 
-minimal_mistakes_skin: "dirt" # options: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
+minimal_mistakes_skin: "sunrise" # options: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
 
 # Site Author
 author:
