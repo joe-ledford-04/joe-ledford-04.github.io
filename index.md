@@ -1,6 +1,9 @@
 ---
 layout: single
 author_profile: true
+title: ""
+header:
+  overlay_filter: 0
 ---
 
 ## About Me 
