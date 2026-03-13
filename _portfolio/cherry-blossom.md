@@ -10,8 +10,7 @@ I used a hueristic threshold model based on the cherry blossom tree phenology fo
 I forecasted the required chill accumulation and growing degree days (GDD) needed based on historic bloom date and temperature data for each city. 
 As a current Washington, DC resident, I predicted April 3rd as the peak bloom date for our cities cherry trees. 
 
-> [!NOTE]
-> **Nota Bene:** Peak bloom date, per the National Parks Service, is when 70% of the Yoshino cherry trees are in bloom. 
+> [!NOTE] Peak bloom date, per the National Parks Service, is when 70% of the Yoshino cherry trees are in bloom. 
 
 
 ## Dataset
