@@ -17,13 +17,6 @@ author:
   location: "Washington, DC"
   github: "joe-ledford-04"
   linkedin: "joseph-ledford04"
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/joe-ledford-04"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://linkedin.com/in/joseph-ledford04"
       
 # Plugins
 plugins:
