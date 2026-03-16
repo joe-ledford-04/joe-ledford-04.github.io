@@ -1,6 +1,7 @@
 ---
 title: "California Housing Price Prediction"
 excerpt: "Machine learning model predicting housing prices. Top 10% finish with RMSE of 0.12106."
+image: /assets/images/kaggleVisualization.png
 ---
 
 ## Overview
