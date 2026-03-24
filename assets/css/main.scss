@@ -3,7 +3,18 @@
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
+.author__avatar a {
+  background: none;
+}
+
+.author__avatar a:hover {
+  background: none;
+}
+
 .author__avatar img {
+  opacity: 1 !important;
+  -webkit-filter: none !important;
+  filter: none !important;
   max-width: 220px;
   border-radius: 50%;
 }
