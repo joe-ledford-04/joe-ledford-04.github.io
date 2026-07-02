@@ -3,10 +3,11 @@ layout: single
 title: "About Me"
 author_profile: true
 ---
-I'm a senior at American University studying Data Science and currently interning at IDX Exchange, where I build housing price models for California markets. 
-My interest include machine learning, forecasting, and natural language processing. 
-I enjoy using statistical modeling as a medium to explore all that interests me like music, philisophy, and sports.
-My goal is to contribute to the development of advanced AI systems and large language models. 
+I’m a Software Engineer with a passion for building intelligent software that combines machine learning, data engineering, and modern software development. I currently work at Tata Consultancy Services (TCS), where I develop software solutions while continuing to expand my expertise in AI, backend engineering, and scalable data systems.
+
+I recently earned my B.S. in Data Science from American University, where I developed a strong foundation in statistics, machine learning, and software engineering. My projects emphasize engineering practices with production in mind, including modular code, reusable pipelines, feature engineering, model evaluation, and version control. I enjoy solving complex technical problems and translating data into practical, maintainable software solutions.
+
+I’m particularly interested in machine learning engineering, backend software development, and artificial intelligence, and I’m always looking for opportunities to build systems that create measurable value for the real world. 
 
 ## Technical Skills
 
