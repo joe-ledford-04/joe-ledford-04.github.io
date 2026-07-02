@@ -1,5 +1,5 @@
 ---
-title:  "Spotify Music Recommendation System "
+title:  "Spotify Music Recommendation System"
 excerpt: "Exploring semantic relationships between lyrics"
 collection: portfolio
 ---
