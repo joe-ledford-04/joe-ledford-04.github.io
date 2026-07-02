@@ -78,4 +78,4 @@ Some of the most significant engineering challenges included:
 
 ## Repository
 
-[View Code]([https://github.com/SebastianGaeta/IDXExchange-DS44])
+[View Code](https://github.com/SebastianGaeta/IDXExchange-DS44)
