@@ -5,7 +5,7 @@ description: Associate Software Engineer at TCS
 url: "https://joe-ledford-04.github.io"
 baseurl: ""
 
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: mmistakes/minimal-mistakes 
 
 minimal_mistakes_skin: "sunrise" # options: air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise
 
