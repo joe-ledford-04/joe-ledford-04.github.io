@@ -2,8 +2,7 @@
 title: "Cherry Blossom Prediction 2026"
 order: 4
 excerpt: "Forecasting peak bloom dates using chill accumulation and growing degree days for GMU/WSA's Cherry Blossom Competition."
-----------------------------------------------------------------------------------------------------------------------------------
-
+---
 ## Overview
 
 This project was my submission to GMU/WSA's 2026 Cherry Blossom Prediction Competition. The competition evaluated forecasts based on the absolute error between predicted and observed peak bloom dates for cherry blossoms across five major cities.
