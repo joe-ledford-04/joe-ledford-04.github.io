@@ -41,6 +41,10 @@ It had 79 features variables with around 60% of them being mumeric.
 %}
 {% endraw %}
 
+![Actual versus predicted home prices](/assets/images/projects/kaggle_comp/kaggleVisualization.png)
+
+*Final CatBoost model predictions compared with observed home prices.*
+
 ## Results
 My final model ended with an RMSE of 0.12381, ranking Top 511 globally at the time.
 
