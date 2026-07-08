@@ -1,5 +1,6 @@
 ---
 title: "Kairos: Statistical Arbitrage Trading System"
+order: 1
 excerpt: "A pairs-trading system combining cointegration testing, Kalman filtering, and an AI agent risk layer to trade US equities on Alpaca's paper trading platform."
 ---
 ## Overview
@@ -22,13 +23,14 @@ Two years of daily price bars for a curated universe of ~20 tickers across energ
 - Kalman filter for dynamic hedge ratio estimation, compared directly against the static baseline
 - MySQL persistence for pair statistics and trade decisions *(in progress)*
 
-{% raw %}
-{% include figure
-   image_path="assets/images/projects/kairos_project/equity_curves.png"
-   alt="Equity Curves"
-   caption="Cumulative equity curves for approved trading pairs"
-%}
-{% endraw %}
+<figure style="text-align: center; margin: 2em 0;">
+  <img src="/assets/images/projects/kairos_project/equity_curves.png"
+       alt="Equity curves from statistical arbitrage backtests"
+       style="max-width: 100%; border-radius: 6px;">
+  <figcaption>
+    <strong>Figure.</strong> Portfolio equity curves generated from multiple cointegrated trading pairs during statistical arbitrage backtesting.
+  </figcaption>
+</figure>
 
 ## Roadmap
 - LangGraph research agent screening news/filings for fundamental breaks before trade execution
