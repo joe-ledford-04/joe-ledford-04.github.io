@@ -1,5 +1,6 @@
 ---
 title: "Cherry Blossom Prediction 2026"
+order: 4
 excerpt: "Forecasting peak bloom dates using chill accumulation and growing degree days for GMU/WSA's Cherry Blossom Competition."
 ---
 
