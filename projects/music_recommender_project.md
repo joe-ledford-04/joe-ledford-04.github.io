@@ -1,51 +1,65 @@
 ---
-layout: single
-title: "Spotify Music Recommendation System "
-permalink: /projects/music_recommender_project.md/
+title: "Spotify Lyric Recommendation System"
+excerpt: "Comparing classical and transformer-based NLP methods for lyric-based music recommendation."
+collection: portfolio
 ---
 
 ## Overview
-Developed a machine learning recommendation system that suggests songs based on their lyrics. 
-Rather than relying on a single modeling approach, the project explored multiple recommendation techniques, feature representations, and preprocessing strategies to determine which methods produced the most meaningful recommendations.
+
+This project investigates how different Natural Language Processing (NLP) techniques influence the quality of lyric-based music recommendations. Rather than building a single recommendation model, I implemented and compared four independent recommendation pipelines to evaluate how different text representations capture semantic relationships between songs.
+
+The project combines API integration, data engineering, NLP, and similarity modeling to study the strengths and limitations of lyric-based recommendation systems.
 
 ## Problem
-Recommendation systems power many modern digital platforms, from music streaming services to e-commerce and video platforms. 
-The objective of this project was to investigate how different machine learning techniques and feature engineering decisions influence the quality of personalized music recommendations.
+
+Commercial music recommendation systems rely on listening history, collaborative filtering, and proprietary user data. This project explores a more constrained problem:
+
+**Can song lyrics alone be used to generate meaningful music recommendations?**
+
+To answer this question, I compared multiple NLP approaches while holding the dataset and evaluation songs constant.
 
 ## Dataset
-- My personal liked songs on Spotify
-    - ~2,000 songs spanning all genres
-- Lyrics of my liked songs extracted via the Genius API
+
+- Approximately 2,000 liked songs from my personal Spotify library
+- Song metadata collected through the Spotify Web API
+- Lyrics retrieved using the Genius API
+- Custom preprocessing pipeline for cleaning and preparing lyric data
 
 ## Methodology
-Instead of committing to a single solution, the project compared multiple approaches for generating recommendations. 
-Models:
-- TF-IDF
-- TF-IDF (chorus only)
-- LSA
-- LyricsBERT
 
-All models were testing on the same genres and seed songs:
-- **Grunge**: Iron Clad Lou — Hum
-- **Soul**: Everybody Loves The Sunshine — Roy Ayers Ubiquity
-- **Latin**: Volare — Gipsy Kings
-- **Hip-hop**: House Money - Baby Keem
+Four recommendation models were implemented and evaluated:
 
-Modeling was done iteratively to capture differences in increasingly dense embeddings. 
+- **TF-IDF:** Sparse lexical representation using cosine similarity
+- **Chorus TF-IDF:** Evaluated whether restricting lyrics to chorus sections improved recommendations
+- **Latent Semantic Analysis (LSA):** Reduced TF-IDF vectors into latent semantic space using Truncated SVD
+- **LyricsBERT:** Generated contextual transformer embeddings for semantic similarity
+
+Each model was tested using the same seed songs across four genres:
+
+| Genre | Seed Song |
+|--------|-----------|
+| Grunge | *Iron Clad Lou* — Hum |
+| Soul | *Everybody Loves the Sunshine* — Roy Ayers Ubiquity |
+| Latin | *Volare* — Gipsy Kings |
+| Hip-Hop | *House Money* — Baby Keem |
 
 ## Results
-Across all models, performance was generally low indicating lyrics alone is not a good system of song recommendation. 
-However, there was a consistent pattern across all models in which the similarity scores for the latin and hip-hop genres were exceedingly higher than soul and grunge across all models. 
-Leading to the conclusion that soul and grunge are better identified by their musical composition while latin and hip-hop have more repetitive verbiage. 
-Hip-hop exemplified these results the best as it had the highest similarities scores across all models due to its repetitive adlibs and explicatives.
 
-## Technical Challenges
-Some of the most significant engineering challenges included:
-- Working with the Spotify API (it is heavily depreceated)
-- Exacting only the chorus from every song in my dataset
-- Quantifying the results between genres
+The comparison demonstrated that lyrics alone provide limited information for high-quality music recommendation. However, several consistent patterns emerged:
 
+- Hip-hop and Latin music produced higher similarity scores across all models.
+- Soul and grunge consistently produced weaker recommendations.
+- Transformer embeddings captured richer semantic relationships than traditional vector-space models but remained limited by the information contained solely within lyrics.
+
+These findings suggest that lyrical repetition and vocabulary are stronger signals in certain genres, while others are better characterized by musical composition than textual content.
+
+## Technical Highlights
+
+- Integrated the Spotify and Genius APIs to build a custom lyric dataset
+- Implemented four independent NLP recommendation pipelines
+- Compared classical vector-space models with transformer embeddings
+- Evaluated recommendation quality across multiple genres using a consistent testing methodology
 
 ## Repository
 
-[View Code]([https://github.com/joe-ledford-04/NLP-Final-Project-Spring-2026])
+[View Source Code](https://github.com/joe-ledford-04/NLP-Final-Project-Spring-2026)
