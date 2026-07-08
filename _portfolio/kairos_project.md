@@ -22,8 +22,14 @@ Two years of daily price bars for a curated universe of ~20 tickers across energ
 - Kalman filter for dynamic hedge ratio estimation, compared directly against the static baseline
 - MySQL persistence for pair statistics and trade decisions *(in progress)*
 
-## Equity Curves 
-![Equity Curve Plot](assets/images/projects/kairos_project/equity_curves.png)
+{% raw %}
+{% include figure
+   image_path="assets/images/projects/kairos_project/equity_curves.png"
+   alt="Equity Curves"
+   caption="Cumulative equity curves for approved trading pairs"
+%}
+
+{% endraw %}
 
 ## Roadmap
 - LangGraph research agent screening news/filings for fundamental breaks before trade execution
