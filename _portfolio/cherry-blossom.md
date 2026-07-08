@@ -25,6 +25,15 @@ Temperature data was in the form of: TMIN, TMAX, and TAVG
 - Grid search for optimal chill threshold
 - Rolling Origin Cross-Validation
 
+<figure style="text-align: center; margin: 2em 0;">
+  <img src="assets/images/projects/cherry_blossoms_project"
+       alt="Rolling-Orgin Cross Validation for Chill Threshold."
+       style="max-width: 85%; border-radius: 6px;">
+  <figcaption>
+    <strong>Figure.</strong> Rolling-origin cross-validation used to determine the optimal chill accumulation threshold by minimizing mean absolute error.
+  </figcaption>
+</figure>
+
 ## Results
 
 Washington, DC: April 3rd, DOY = 93
