@@ -17,6 +17,53 @@ The project is structured around three pillars:
 ## Dataset
 Two years of daily price bars for a curated universe of ~20 tickers across energy and consumer staples, pulled via the Alpaca Market Data API.
 
+## Architecture
+Historical Stock Prices
+        │
+        ▼
+ Data Loading
+        │
+        ▼
+ Stationarity Tests
+      (ADF)
+        │
+        ▼
+ Pairwise Cointegration
+        │
+        ▼
+ Economic Filtering
+        │
+        ▼
+ Hedge Ratio Estimation
+ (OLS or Kalman Filter)
+       Price Pair
+          │
+┌─────────┴─────────┐
+│                   │
+▼                   ▼
+Static OLS         Kalman Filter
+Fixed β            Dynamic β(t)
+│                   │
+└─────────┬─────────┘
+          ▼
+Compare Signals &
+Trading Performance
+        │
+        ▼
+ Spread Calculation
+        │
+        ▼
+ Rolling Z-Score Signal
+        │
+        ▼
+ Backtest Engine
+        │
+        ▼
+Performance Metrics
+Sharpe
+Drawdown
+Equity Curves
+
 ## Current Status
 - Cointegration screening across 150+ ticker pair combinations
 - Rolling z-score signal generation and a backtesting engine reporting Sharpe ratio, max drawdown, and cumulative P&L
