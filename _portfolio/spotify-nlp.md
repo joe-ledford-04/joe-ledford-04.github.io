@@ -18,6 +18,15 @@ Commercial music recommendation systems rely on listening history, collaborative
 
 To answer this question, I compared multiple NLP approaches while holding the dataset and evaluation songs constant.
 
+<figure style="text-align: center; margin: 2em 0;">
+  <img src="/assets/images/projects/nlp_project/tfidf_vs_lyricBERT.png"
+       alt="Comparison of TF-IDF and LyricBERT semantic similarity distributions"
+       style="max-width: 100%; border-radius: 6px;">
+  <figcaption>
+    <strong>Figure.</strong> Distribution of pairwise semantic similarity scores produced by TF-IDF and LyricBERT. While TF-IDF similarities are concentrated near zero, LyricBERT produces a broader distribution that better captures semantic relationships between song lyrics.
+  </figcaption>
+</figure>
+
 ## Dataset
 
 - Approximately 2,000 liked songs from my personal Spotify library
@@ -68,15 +77,6 @@ These findings suggest that lyrical repetition and vocabulary are stronger signa
        style="width: 100%; border-radius: 6px;">
   <figcaption>
     <strong>Figure.</strong> Genre overlap between recommendation models measured using the Jaccard similarity metric.
-  </figcaption>
-</figure>
-
-<figure style="text-align: center; margin: 2em 0;">
-  <img src="/assets/images/projects/nlp_project/tfidf_vs_lyricBERT.png"
-       alt="Comparison of TF-IDF and LyricBERT semantic similarity distributions"
-       style="max-width: 100%; border-radius: 6px;">
-  <figcaption>
-    <strong>Figure.</strong> Distribution of pairwise semantic similarity scores produced by TF-IDF and LyricBERT. While TF-IDF similarities are concentrated near zero, LyricBERT produces a broader distribution that better captures semantic relationships between song lyrics.
   </figcaption>
 </figure>
 
