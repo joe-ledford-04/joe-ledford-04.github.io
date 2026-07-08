@@ -44,6 +44,24 @@ Key techniques included:
 - Boolean feature normalization
 - Feature scaling where appropriate for experimentation
 
+<figure style="text-align: center; margin: 2em 0;">
+  <img src="/assets/images/projects/idxexchange_project/catboost_featImp.png"
+       alt="CatBoost feature importance"
+       style="max-width: 100%; border-radius: 6px;">
+  <figcaption>
+    <strong>Figure.</strong> CatBoost feature importance highlighting the variables that contributed most to predicting California home prices.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin: 2em 0;">
+  <img src="/assets/images/projects/idxexchange_project/spatialKNNpriceplot.png"
+       alt="Spatial distribution of California home prices"
+       style="max-width: 90%; border-radius: 6px;">
+  <figcaption>
+    <strong>Figure.</strong> Spatial visualization of California housing prices generated during exploratory data analysis using spatial K-nearest neighbors.
+  </figcaption>
+</figure>
+
 ## Model Selection
 Several regression algorithms were evaluated, including:
 - CatBoost (my personal choice)
