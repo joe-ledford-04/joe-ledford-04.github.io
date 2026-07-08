@@ -18,51 +18,34 @@ The project is structured around three pillars:
 Two years of daily price bars for a curated universe of ~20 tickers across energy and consumer staples, pulled via the Alpaca Market Data API.
 
 ## Architecture
-Historical Stock Prices
-        │
-        ▼
- Data Loading
-        │
-        ▼
- Stationarity Tests
-      (ADF)
-        │
-        ▼
- Pairwise Cointegration
-        │
-        ▼
- Economic Filtering
-        │
-        ▼
- Hedge Ratio Estimation
- (OLS or Kalman Filter)
-       Price Pair
-          │
-┌─────────┴─────────┐
-│                   │
-▼                   ▼
-Static OLS         Kalman Filter
-Fixed β            Dynamic β(t)
-│                   │
-└─────────┬─────────┘
-          ▼
-Compare Signals &
-Trading Performance
-        │
-        ▼
- Spread Calculation
-        │
-        ▼
- Rolling Z-Score Signal
-        │
-        ▼
- Backtest Engine
-        │
-        ▼
-Performance Metrics
-Sharpe
-Drawdown
-Equity Curves
+
+Kairos is organized as a modular statistical arbitrage workflow that moves from market data ingestion to pair screening, signal generation, backtesting, and eventually paper trading execution.
+
+The current architecture includes:
+
+- **Market data ingestion**  
+  Historical daily price bars are pulled from the Alpaca Market Data API for a curated universe of equities.
+
+- **Stationarity testing**  
+  Individual price series are screened using Augmented Dickey-Fuller tests to evaluate whether they are stationary or require pair-based mean-reversion analysis.
+
+- **Pairwise cointegration screening**  
+  Stock pairs are tested using Engle-Granger cointegration logic to identify relationships that may exhibit long-run mean reversion.
+
+- **Economic filtering**  
+  Statistically valid pairs are filtered further based on whether the relationship makes economic sense, reducing reliance on purely statistical correlations.
+
+- **Hedge ratio estimation**  
+  Approved pairs are modeled using both a static OLS hedge ratio and a dynamic Kalman filter hedge ratio, allowing comparison between fixed and time-varying pair relationships.
+
+- **Spread and signal generation**  
+  Pair spreads are calculated and converted into rolling z-score signals to identify potential entry and exit opportunities.
+
+- **Backtesting engine**  
+  Generated signals are evaluated through a backtesting framework that tracks cumulative P&L, Sharpe ratio, maximum drawdown, and equity curves.
+
+- **Risk and execution layer**  
+  The planned production architecture adds a LangGraph-based research agent as a fundamental risk gate before trades are sent to Alpaca's paper trading API.
 
 ## Current Status
 - Cointegration screening across 150+ ticker pair combinations
