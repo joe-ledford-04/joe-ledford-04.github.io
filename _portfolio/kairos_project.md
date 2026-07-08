@@ -28,7 +28,6 @@ Two years of daily price bars for a curated universe of ~20 tickers across energ
    alt="Equity Curves"
    caption="Cumulative equity curves for approved trading pairs"
 %}
-
 {% endraw %}
 
 ## Roadmap
