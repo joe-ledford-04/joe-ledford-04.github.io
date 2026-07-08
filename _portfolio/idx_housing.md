@@ -1,5 +1,6 @@
 ---
 title: "IDXExchange: California Housing Valuation Pipeline "
+order: 2
 excerpt: "Predicting the close price for single family homes in California."
 collection: portfolio
 ---
