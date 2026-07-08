@@ -20,16 +20,35 @@ The objective was to predict final home sale prices using current transaction da
 - Separate training and forward testing datasets to simulate deployment
 
 ## Pipeline Architecture
-The project was designed as a modular machine learning pipeline consisting of:
-- Data ingestion
-- Data cleaning and validation
-- Missing value imputation
-- Feature engineering
-- Categorical encoding
-- Model training
-- Hyperparameter optimization
-- Model evaluation
-- Prediction generation
+166k+ California Home Sales
+                │
+                ▼
+      Temporal Train/Test Split
+                │
+                ▼
+────────────────────────────────────────────
+        Feature Engineering Pipeline
+────────────────────────────────────────────
+ Missing Values
+ Log Transform
+ Cyclical Features
+ Geographic Features
+ Spatial KNN Price
+ Target Encoding
+ CatBoost Categorical Features
+ Optuna Hyperparameter Optimization
+────────────────────────────────────────────
+                │
+                ▼
+      CatBoost Regressor
+ (Early Stopping + Validation)
+                │
+                ▼
+ Prediction on Holdout Set
+                │
+                ▼
+ Evaluation
+R² • MAPE • MdAPE
 
 Each stage was implemented independently to improve maintainability and allow future experimentation with different preprocessing and modeling techniques.
 
@@ -75,7 +94,7 @@ Project outcomes included:
 - Reproducible feature engineering process
 - Production-style code organization suitable for future expansion
 
-figure style="text-align: center; margin: 2em 0;">
+<figure style="text-align: center; margin: 2em 0;">
   <img src="/assets/images/projects/idxexchange_project/stability.png"
        alt="Forward Testing Results"
        style="max-width: 100%; border-radius: 6px;">
