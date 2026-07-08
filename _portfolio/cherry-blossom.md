@@ -26,11 +26,11 @@ Temperature data was in the form of: TMIN, TMAX, and TAVG
 - Rolling Origin Cross-Validation
 
 <figure style="text-align: center; margin: 2em 0;">
-  <img src="/assets/images/projects/cherry_blossoms_project"
-       alt="Rolling-Orgin Cross Validation for Chill Threshold."
-       style="max-width: 85%; border-radius: 6px;">
+  <img src="/assets/images/projects/cherry_blossoms_project/rollingorg_cross_val_cherries.png"
+       alt="Rolling-origin cross-validation for cherry blossom prediction"
+       style="max-width: 100%; border-radius: 6px;">
   <figcaption>
-    <strong>Figure.</strong> Rolling-origin cross-validation used to determine the optimal chill accumulation threshold by minimizing mean absolute error.
+    <strong>Figure.</strong> Rolling-origin cross-validation framework used to evaluate the phenology model. The training window expands over time while each fold predicts an unseen bloom season, providing a realistic assessment of forecasting performance on future years.
   </figcaption>
 </figure>
 
