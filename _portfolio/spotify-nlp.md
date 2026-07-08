@@ -34,6 +34,15 @@ Four recommendation models were implemented and evaluated:
 - **Latent Semantic Analysis (LSA):** Reduced TF-IDF vectors into latent semantic space using Truncated SVD
 - **LyricsBERT:** Generated contextual transformer embeddings for semantic similarity
 
+<figure style="text-align: center; margin: 2em 0;">
+  <img src="/assets/images/projects/nlp_project/lyricBERT_embedding_space.png"
+       alt="LyricBERT embedding space"
+       style="max-width: 90%; border-radius: 6px;">
+  <figcaption>
+    <strong>Figure.</strong> Two-dimensional projection of song embeddings learned by the LyricBERT model.
+  </figcaption>
+</figure>
+
 Each model was tested using the same seed songs across four genres:
 
 | Genre | Seed Song |
@@ -52,6 +61,24 @@ The comparison demonstrated that lyrics alone provide limited information for hi
 - Transformer embeddings captured richer semantic relationships than traditional vector-space models but remained limited by the information contained solely within lyrics.
 
 These findings suggest that lyrical repetition and vocabulary are stronger signals in certain genres, while others are better characterized by musical composition than textual content.
+
+<figure style="text-align: center; margin: 2em 0;">
+  <img src="/assets/images/projects/nlp_project/jaccard_overlap.png"
+       alt="Jaccard similarity across genres and recommendation models"
+       style="width: 100%; border-radius: 6px;">
+  <figcaption>
+    <strong>Figure.</strong> Genre overlap between recommendation models measured using the Jaccard similarity metric.
+  </figcaption>
+</figure>
+
+<figure style="text-align: center; margin: 2em 0;">
+  <img src="/assets/images/projects/nlp_project/tfidf_vs_lyricBERT.png"
+       alt="Comparison of TF-IDF and LyricBERT semantic similarity distributions"
+       style="max-width: 100%; border-radius: 6px;">
+  <figcaption>
+    <strong>Figure.</strong> Distribution of pairwise semantic similarity scores produced by TF-IDF and LyricBERT. While TF-IDF similarities are concentrated near zero, LyricBERT produces a broader distribution that better captures semantic relationships between song lyrics.
+  </figcaption>
+</figure>
 
 ## Technical Highlights
 
