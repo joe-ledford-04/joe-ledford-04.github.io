@@ -20,37 +20,14 @@ The objective was to predict final home sale prices using current transaction da
 - Separate training and forward testing datasets to simulate deployment
 
 ## Pipeline Architecture
-166k+ California Home Sales
-                │
-                ▼
-      Temporal Train/Test Split
-                │
-                ▼
-────────────────────────────────────────────
-        Feature Engineering Pipeline
-────────────────────────────────────────────
- Missing Values
- Log Transform
- Cyclical Features
- Geographic Features
- Spatial KNN Price
- Target Encoding
- CatBoost Categorical Features
- Optuna Hyperparameter Optimization
-────────────────────────────────────────────
-                │
-                ▼
-      CatBoost Regressor
- (Early Stopping + Validation)
-                │
-                ▼
- Prediction on Holdout Set
-                │
-                ▼
- Evaluation
-R² • MAPE • MdAPE
-
-Each stage was implemented independently to improve maintainability and allow future experimentation with different preprocessing and modeling techniques.
+<figure style="text-align: center; margin: 2em 0;">
+  <img src="/assets/images/projects/idxexchange_project/idxexhange_pipeline.drawio.png"
+       alt="IDXExchange housing valuation pipeline architecture"
+       style="max-width: 100%; border-radius: 6px;">
+  <figcaption>
+    <strong>Figure.</strong> End-to-end IDXExchange housing valuation workflow, including raw MLS data processing, leakage-aware feature engineering, CatBoost model training, forward testing, and evaluation diagnostics.
+  </figcaption>
+</figure>
 
 ## Feature Engineering
 Feature engineering played a significant role in improving predictive performance.
