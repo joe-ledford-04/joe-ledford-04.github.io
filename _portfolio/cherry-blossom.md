@@ -68,6 +68,15 @@ The final model produced the following 2026 peak bloom predictions:
 
 For Washington, DC, the optimized model estimated that cherry trees require approximately **54 chill days below 7.2°C**, followed by roughly **204 growing degree days using a 4.4°C base temperature**.
 
+<figure style="text-align: center; margin: 2em 0;">
+  <img src="/assets/images/projects/cherry_blossoms_project/dc_peakbloom_histdates.png"
+       alt="Historical distribution of Washington, D.C. peak bloom dates"
+       style="max-width: 100%; border-radius: 6px;">
+  <figcaption>
+    <strong>Figure.</strong> Historical distribution of Washington, D.C. peak bloom dates used in the analysis. The figure illustrates the natural year-to-year variability in bloom timing, providing context for the forecasting task and highlighting the range of phenological responses to changing seasonal weather conditions.
+  </figcaption>
+</figure>
+
 ## Technical Challenges
 
 The main challenge was avoiding an overly optimistic evaluation. If the GDD requirement is estimated using all historical years, the model indirectly uses information from the year being predicted. Rolling-origin cross-validation helped correct for this by estimating the GDD requirement only from past years before predicting each future bloom season.
