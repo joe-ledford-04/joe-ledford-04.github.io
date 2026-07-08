@@ -26,7 +26,7 @@ Temperature data was in the form of: TMIN, TMAX, and TAVG
 - Rolling Origin Cross-Validation
 
 <figure style="text-align: center; margin: 2em 0;">
-  <img src="assets/images/projects/cherry_blossoms_project"
+  <img src="/assets/images/projects/cherry_blossoms_project"
        alt="Rolling-Orgin Cross Validation for Chill Threshold."
        style="max-width: 85%; border-radius: 6px;">
   <figcaption>
