@@ -33,17 +33,15 @@ It had 79 features variables with around 60% of them being mumeric.
   - Ridge Regressor
 - Cross validation using K-Fold
 
-{% raw %}
-{% include figure
-    image_path="/assets/images/projects/kaggle_comp/kaggleVisualization.png"
-    alt="Actual versus predicted home prices"
-    caption="Final CatBoost model predictions compared with observed home prices."
-%}
-{% endraw %}
-
-![Actual versus predicted home prices](/assets/images/projects/kaggle_comp/kaggleVisualization.png)
-
-*Final CatBoost model predictions compared with observed home prices.*
+  
+<figure style="text-align: center;">
+  <img src="/assets/images/projects/kaggle_comp/kaggleVisualization.png"
+       alt="Actual versus predicted home prices"
+       style="max-width: 100%; border-radius: 6px;">
+  <figcaption>
+    Final CatBoost model predictions compared with observed home prices.
+  </figcaption>
+</figure>
 
 ## Results
 My final model ended with an RMSE of 0.12381, ranking Top 511 globally at the time.
