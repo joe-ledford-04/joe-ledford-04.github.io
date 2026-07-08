@@ -35,34 +35,3 @@
   flex: 1;
   min-width: 0;
 }
-
-/* ---------- Portfolio Improvements ---------- */
-
-.grid__item {
-  width: 48%;
-}
-
-.archive__item {
-  padding: 0.75rem;
-}
-
-.archive__item-title {
-  font-size: 1.25rem;
-  line-height: 1.35;
-  min-height: 3.5rem;
-}
-
-.archive__item-excerpt {
-  font-size: 0.95rem;
-  line-height: 1.5;
-}
-
-.archive__item-teaser img {
-  border-radius: 8px;
-}
-
-@media (max-width: 900px) {
-  .grid__item {
-    width: 100%;
-  }
-}
