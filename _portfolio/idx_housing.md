@@ -54,15 +54,6 @@ Key techniques included:
   </figcaption>
 </figure>
 
-<figure style="text-align: center; margin: 2em 0;">
-  <img src="/assets/images/projects/idxexchange_project/spatialKNNpriceplot.png"
-       alt="Spatial distribution of California home prices"
-       style="max-width: 90%; border-radius: 6px;">
-  <figcaption>
-    <strong>Figure.</strong> Spatial visualization of California housing prices generated during exploratory data analysis using spatial K-nearest neighbors.
-  </figcaption>
-</figure>
-
 ## Model Selection
 Several regression algorithms were evaluated, including:
 - CatBoost (my personal choice)
@@ -83,6 +74,15 @@ Project outcomes included:
 - High-performing gradient boosting models
 - Reproducible feature engineering process
 - Production-style code organization suitable for future expansion
+
+figure style="text-align: center; margin: 2em 0;">
+  <img src="/assets/images/projects/idxexchange_project/stability.png"
+       alt="Forward Testing Results"
+       style="max-width: 100%; border-radius: 6px;">
+  <figcaption>
+    <strong>Figure.</strong> CatBoost Forward Testing Results across 3 months, with R2, MAPE, MdAPE as testing metrics. Shows stability of model across testing windows. 
+  </figcaption>
+</figure>
 
 ## Technical Challenges
 Some of the most significant engineering challenges included:
