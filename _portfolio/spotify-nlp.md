@@ -1,5 +1,6 @@
 ---
 title: "Spotify Lyric Recommendation System"
+order: 3
 excerpt: "Comparing classical and transformer-based NLP methods for lyric-based music recommendation."
 collection: portfolio
 ---
